@@ -1,0 +1,107 @@
+-- Merging decision tree log ---
+manifest
+ADDED from AndroidManifest.xml:1:1
+	package
+		ADDED from AndroidManifest.xml:2:5
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:versionName
+		ADDED from AndroidManifest.xml:4:5
+	android:versionCode
+		ADDED from AndroidManifest.xml:3:5
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	xmlns:android
+		ADDED from AndroidManifest.xml:1:11
+uses-sdk
+ADDED from AndroidManifest.xml:6:5
+MERGED from com.android.support:support-v4:21.0.3:15:5
+	android:targetSdkVersion
+		ADDED from AndroidManifest.xml:8:9
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:minSdkVersion
+		ADDED from AndroidManifest.xml:7:9
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from AndroidManifest.xml:10:5
+	android:name
+		ADDED from AndroidManifest.xml:10:22
+application
+ADDED from AndroidManifest.xml:12:5
+MERGED from com.android.support:support-v4:21.0.3:16:5
+	android:label
+		ADDED from AndroidManifest.xml:15:9
+	android:allowBackup
+		ADDED from AndroidManifest.xml:13:9
+	android:icon
+		ADDED from AndroidManifest.xml:14:9
+	android:theme
+		ADDED from AndroidManifest.xml:16:9
+activity#com.player.theoakteam.Activity.MainActivity
+ADDED from AndroidManifest.xml:17:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:20:13
+	android:launchMode
+		ADDED from AndroidManifest.xml:19:13
+	android:name
+		ADDED from AndroidManifest.xml:18:13
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:21:13
+action#android.intent.action.MAIN
+ADDED from AndroidManifest.xml:22:17
+	android:name
+		ADDED from AndroidManifest.xml:22:25
+category#android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:24:17
+	android:name
+		ADDED from AndroidManifest.xml:24:27
+activity#com.player.theoakteam.Activity.AudioPlayerActivity
+ADDED from AndroidManifest.xml:27:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:31:13
+	android:excludeFromRecents
+		ADDED from AndroidManifest.xml:29:13
+	android:launchMode
+		ADDED from AndroidManifest.xml:30:13
+	android:name
+		ADDED from AndroidManifest.xml:28:13
+service#com.player.theoakteam.service.SongService
+ADDED from AndroidManifest.xml:34:9
+	android:enabled
+		ADDED from AndroidManifest.xml:37:13
+	android:exported
+		ADDED from AndroidManifest.xml:36:13
+	android:name
+		ADDED from AndroidManifest.xml:35:13
+receiver#com.player.theoakteam.receiver.NotificationBroadcast
+ADDED from AndroidManifest.xml:39:9
+	android:name
+		ADDED from AndroidManifest.xml:39:19
+intent-filter#android.intent.action.MEDIA_BUTTON+com.tutorialsface.audioplayer.delete+com.tutorialsface.audioplayer.next+com.tutorialsface.audioplayer.pause+com.tutorialsface.audioplayer.play+com.tutorialsface.audioplayer.previous
+ADDED from AndroidManifest.xml:40:13
+action#com.tutorialsface.audioplayer.delete
+ADDED from AndroidManifest.xml:41:17
+	android:name
+		ADDED from AndroidManifest.xml:41:25
+action#com.tutorialsface.audioplayer.pause
+ADDED from AndroidManifest.xml:42:17
+	android:name
+		ADDED from AndroidManifest.xml:42:25
+action#com.tutorialsface.audioplayer.next
+ADDED from AndroidManifest.xml:43:17
+	android:name
+		ADDED from AndroidManifest.xml:43:25
+action#com.tutorialsface.audioplayer.play
+ADDED from AndroidManifest.xml:44:17
+	android:name
+		ADDED from AndroidManifest.xml:44:25
+action#com.tutorialsface.audioplayer.previous
+ADDED from AndroidManifest.xml:45:17
+	android:name
+		ADDED from AndroidManifest.xml:45:25
+action#android.intent.action.MEDIA_BUTTON
+ADDED from AndroidManifest.xml:46:17
+	android:name
+		ADDED from AndroidManifest.xml:46:25

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/D:/Android%20Project/MusicPlayer/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <color name="opaque">#70000000</color>
+    <color name="orange">#ff3d00</color>
+    <color name="white">#ffffff</color>
+    <dimen name="button_width">32dp</dimen>
+    <dimen name="small_button_width">28dp</dimen>
+    <dimen name="small_image_art_width">85dp</dimen>
+    <string name="app_name">The Oak Music Player</string>
+    <string name="back">Back</string>
+    <string name="empty_text">Select song from below to play</string>
+    <string name="idle">Idle</string>
+    <string name="next">Next</string>
+    <string name="open_playlist">Open Playlist</string>
+    <string name="pause">Pause</string>
+    <string name="play">Play</string>
+    <string name="player">Audio Player</string>
+    <string name="player_button">Album Art Screen</string>
+    <!-- From: file:/D:/Android%20Project/MusicPlayer/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+</resources>
